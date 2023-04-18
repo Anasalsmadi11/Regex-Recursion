@@ -2,8 +2,11 @@
 
 function division(number, dividedBy) {
     // Write you logic here.
-    return;
-}
+    if(dividedBy === 0){
+        return 0
+      }else{
+    return number*Math.pow(dividedBy,-1);
+}}
 
 /* Write a function that implement Math.pow(x,n) but using recursion
 Example:
